@@ -63,12 +63,6 @@ Visit the URL shown in the terminal (typically `http://localhost:5173`).
 
 ## Backend Configuration
 
-This frontend expects a backend API available at:
-
-```js
-https://chat-app-backend-r0mi.onrender.com
-```
-
 The backend should expose endpoints for room creation, joining rooms, fetching messages, and uploading files.
 
 ## Notes
