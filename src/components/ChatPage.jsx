@@ -67,7 +67,7 @@ const ChatPage = () => {
         if (!connected) return;
 
         const socket = io(
-            "https://chat-app-backend-r0mi.onrender.com"
+            import.meta.env.VITE_API_URL
         );
 
         socketRef.current = socket;
